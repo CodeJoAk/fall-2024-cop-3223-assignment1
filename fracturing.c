@@ -142,14 +142,14 @@ double calculateArea() // Gets user inputs for a set of points then outputs thos
     // Asking the user for input and storing it in the respective variables
     printf("Enter value for x1: ");
     double x1 = askForUserInput(); 
-    printf("Enter value for x2: ");
+    printf("Enter value for x2  ");
     double x2 = askForUserInput(); 
     printf("Enter value for y1: ");
     double y1 = askForUserInput(); 
     printf("Enter value for y2: ");
     double y2 = askForUserInput();
     
-    printUserInput(x1, y1, x2, y2); // Outputs the entered values back
+    printUserInput(x1, x2, y1, y2); // Outputs the entered values back
     
     // Calculate and store the distance then output the value
     double cityRadius = getDiameter(x1,x2,y1,y2)/2;
@@ -181,7 +181,7 @@ double calculateWidth() // Gets user inputs for a set of points then outputs tho
     printf("Enter value for y2: ");
     double y2 = askForUserInput();
     
-    printUserInput(x1, y1, x2, y2); // Outputs the entered values back
+    printUserInput(x1, x2, y1, y2); // Outputs the entered values back
     
     // Calculate and store the distance then output the value
     double width = getDiameter(x1,x2,y1,y2);
